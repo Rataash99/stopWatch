@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stop-Watch</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="box-border bg-gradient-to-b from-slate-950 via-slate-900 to-black bg-center bg-no-repeat bg-cover bg-fixed text-white">
+    <div
+      class=" flex items-center h-[100vh] justify-center"
+    >
+      <!-- container for stopwatch -->
+      <main
+        id="stopwatch"
+        class="flex gap-y-[2rem] flex-col items-center p-10 w-auto scale-75 sm:scale-125 lg:scale-150 transition duration-200 max-w-screen-xl"
+      >
+      <h1 id="heading" class = 'tracking-[1.2rem] uppercase text-[2rem] md:text-[2.5rem] mb-10 bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-violet-500 drop-shadow-xl font-semibold'>StopWatch</h1>
+        <div class="clock relative animate-wiggle w-64 sm:w-80">
+            <div id="clock-top" class = "border-slate-800 rounded-2xl border-t-[0.5rem] w-20 h-[2rem] absolute -top-2 left-1/2 transform -translate-x-1/2"></div>
+          <p
+            id="timer"
+            class="text-[4rem] sm:text-[5.5rem] border-[0.45rem] border-slate-800 sm:px-2 py-[1rem]  text-cyan-500 rounded-3xl shadow-2xl shadow-cyan-500 bg-black text-center"
+          >
+          ಠ_ಠ
+          </p>
+          <div id="stands" class = "flex flex-wrap flex-row justify-around ">
+              <div id="left-stand" class = "border-slate-800 rounded-xl border-t-[0.5rem] w-12 h-5"></div>
+              <div id="right-stand" class = "border-slate-800 rounded-xl border-t-[0.5rem] w-12 h-5"></div>
+          </div>
+        </div>
+        <div id="watch-controller" class="flex gap-x-8 flex-col gap-y-5 sm:flex-row">
+          <button
+            id="start-timer"
+            class="py-2 px-6 border border-slate-600 text-green-400 rounded-xl hover:border-green-400 hover:scale-[1.1] shadow-2xl hover:shadow-green-400 hover:bg-black"
+          >
+            Start
+          </button>
+          <button 
+            id="stop-timer"
+            class="py-2 px-6 border border-slate-600 text-red-500 rounded-xl hover:bg-black hover:border-red-500 hover:scale-[1.1] shadow-2xl hover:shadow-red-400"
+          >
+            Stop
+          </button>
+          <button disabled
+            id="reset-timer"
+            class="py-2 px-6 border border-slate-600 rounded-xl hover:bg-black hover:border-white hover:scale-[1.1] shadow-2xl hover:shadow-white"
+          >
+            Reset
+          </button>
+        </div>
+      </main>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
