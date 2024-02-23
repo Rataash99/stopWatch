@@ -20,6 +20,12 @@ Users should be able to:
 - Start, Stop and Reset the Timer
 - will be able to view current `Date` and `Time`
 
+### Screenshot
+
+![DesktopView - 1](./Images/desktopView_1.png)
+![DesktopView - 2](./Images/desktopView_2.png)
+![mobileView](./Images/mobileView.png)
+
 ### Links
 
 - Solution URL: [Github link](https://github.com/Rataash99/stopWatch)
@@ -42,3 +48,4 @@ Users should be able to:
 - [Resource 1](https://www.fontawesome.com) - This helped me for choosing icons. I really liked this pattern and will use it going forward.
 - [Resource 2](https://fonts.google.com) - This is an amazing website which helped me select whatever the font i've needed.
 - [Resource 3](https://tailwindcss.com/docs/installation) - Amazing Documentation for Tailwind CSS, A must check out!
+
