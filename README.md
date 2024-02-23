@@ -22,9 +22,7 @@ Users should be able to:
 
 ### Screenshot
 
-![DesktopView - 1](./Images/desktopView_1.png)
-![DesktopView - 2](./Images/desktopView_2.png)
-![mobileView](./Images/mobileView.png)
+![View](./Images/ss.png)
 
 ### Links
 
