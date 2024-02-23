@@ -5,11 +5,19 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build" : "tailwindcss -i ./src/input.css -o ./public/styles.css --watch"
+    "build": "tailwindcss -i ./src/input.css -o ./public/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rataash99/stopWatch.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rataash99/stopWatch/issues"
+  },
+  "homepage": "https://github.com/Rataash99/stopWatch#readme",
   "devDependencies": {
     "tailwindcss": "^3.4.1"
   }
